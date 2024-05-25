@@ -1,0 +1,227 @@
+body {
+    padding: 0;
+    background-color: rgb(50, 192, 50);
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleIndicators {
+    width: 65%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg {
+    font-size: 21px;
+    margin-left: 15px;
+    color: white;
+    display: inline;
+    padding-right: 37%;
+}
+
+.div1 {
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    background-color: green;
+    padding: 30;
+}
+
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+#milho1 {
+    height: 250px;
+    width: 376px;
+}
+
+#milho2 {
+    height: 250px;
+    width: 376px;
+}
+
+#milho3 {
+    height: 250px;
+    width: 376px;
+}
+
+.div2 {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-clima {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(230, 206, 206);
+    display: inline;
+    margin-right: 400px;
+}
+
+#btn1 {
+    font-size: large;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#btn2 {
+    font-size: large;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#btn3 {
+    font-size: large;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#btn4 {
+    font-size: large;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.wraper {
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.calendar {
+    width: calc(50% - 10px);
+    border-radius: 8px;
+    border: 2px solid green;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.days-week {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.days-week span {
+    color: rgb(11, 88, 11);
+    font-weight: bold;
+    display: inline-block;
+    width: 14.2%;
+}
+
+.number-days span {
+    display: inline-block;
+    width: 14.2%;
+    color: #555;
+    margin: 8px 0;
+}
+
+.mes-anterior {
+    opacity: 0.5;
+}
+
+.div-info {
+    background-color: rgb(230, 206, 206);
+}
+
+.text-info {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div-voltar {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+#voltar1 {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+#voltar2 {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+#voltar3 {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+#voltar4 {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.links {
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.div-tec {
+    background-color: rgb(230, 206, 206);
+    padding: 20px;
+    margin: 50px;
+}
+
+.estagio {
+    padding: 50px;
+} 
+
+.imgEstagio {
+    display: block;
+    width: 600px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.refer {
+    margin-left: 25%;
+}
+
+a:hover {
+    color: #0000ff;
+}
+
+.referPag {
+    margin-left: 65%;
+    color: #1c84e7;
+}
+
+#referPagSem {
+    color: #1c84e7;
+}
